@@ -5,6 +5,7 @@ The command used to search for files is called **find**.
 
 The sintaxis is: 
 
-```find filename
+```
+find filename
 ```
 
