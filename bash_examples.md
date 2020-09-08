@@ -1,3 +1,4 @@
+
 # COMMAND LINE 
 ___
 ### CREATING A NEW DIRECTORY
@@ -139,5 +140,33 @@ The command used to search for files is called **find**.
 ```
 find filename
 ```
-### 
+### FIND FILES ACCESSED MORE THAN A CERTAIN NUMBER OF DAYS AGO
+```
+find ~ -atime + 100
+``` 
+### FIND EMPTY FILES AND FOLDERS
+```
+find / -empty
+```
+### FIND EXECUTABLE FILES
+```
+find / -executable
+```
+### FIND READABLE FILES
+```
+find / -readable
+```
+### FIND FILES UNDER HOME DIRECTORY
+```
+find /home -name file.txt
+```
+### PATTERN
+Search for all files with extension mp3:
+```
+find / -name *.mp3
 
+```
+### FIND EXECUTABLE FILES 
+```
+find / -perm /a=x
+```
