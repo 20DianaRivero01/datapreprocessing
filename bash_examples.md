@@ -17,14 +17,23 @@ cd name_of_the_directory
 cd ..
 ```
 ### CHECK ALL THE FILES/DIRECTORIES WITHIN A DIRECTORY
-It is useful to see which files and even which directories we have inside of a directory, for that we use the command **"ls"**
+It is useful to see which files and even which directories we have inside of a directory, for that we use the command **"ls"** 
 ```
 ls
 ```
 Also if you want to check the **HIDE FILES** you can use the command **"ls .*"**
 ```
-ls .*
+ls .* 
 ```
+To see all the files and also de hiden 
+--> ls -a, ls -l, ls -A, ls -Al, ls -h, ls -lh, ls -Alh
+
+To search some file or directory and you don`t know the hole name you can abreviate it and find it like this:
+```
+ls my*
+``` 
+* ls my?dir = it gives the content that is inside of the directory
+* ls my*dir = "*"it means one or cero or more characters
 ### HISTORY
 If we want to see all the commands and movements we have done inside the powershell we can access to the history and check all the register and also if we forgot a command we can check it from there.The command we use is **"history"**
 ```
@@ -33,7 +42,11 @@ history
 ### CREATING A NEW FILE
 We can create a new file by using the command **"nano"**, command line let us create files of any type depending on the completion of the document, for example(.txt,.py,.c,etc.)
 ```
-nano name_of_the_document.txt
+nano name_of_the_file.type
+```
+if you want to create a **hiden file**
+```
+nano .name_of_the_file.type
 ```
 ## COPING A FILE 
 If we want to copy a file we use **"cp"** following by the name of the new file because they can have the same name because it is a copy
@@ -95,6 +108,11 @@ To move a file to another carpet use the command **"mv"**
 ```
 mv name_of_the_file ../.  <---(direction_carpet)
 ```
+## MODIFIED FILES
+There are documents that you can modified/access and there are other that you cant because of the access of the user
+there are diferent types of path
+* Absolute paths: the direcctions of the directories 
+* Relative paths: they are refered to the directory home
 ### FIND
 The command used to search for files is called **find**.
 ```
