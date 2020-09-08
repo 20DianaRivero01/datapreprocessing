@@ -34,6 +34,21 @@ ls my*
 ``` 
 * ls my?dir = it gives the content that is inside of the directory
 * ls my*dir = "*"it means one or cero or more characters
+
+If we have a directory with any number in the name,for example another_9hing, we can open it like this:
+```
+ls another_[[:digit:]]hing
+```
+you can do the dame with any alphabetic digit for example another_thing:
+```
+ls another_[[:alpha:]]hing
+```
+also you can do it in other ways:
+```
+ls another_[[:alnum:]]*
+ls another_[[:lower:]]*
+ls another_[[:upper:]]*
+```
 ### HISTORY
 If we want to see all the commands and movements we have done inside the powershell we can access to the history and check all the register and also if we forgot a command we can check it from there.The command we use is **"history"**
 ```
@@ -113,6 +128,12 @@ There are documents that you can modified/access and there are other that you ca
 there are diferent types of path
 * Absolute paths: the direcctions of the directories 
 * Relative paths: they are refered to the directory home
+
+## SEARCH LOCATION SHORTCUTS
+The 1rst argument after 'find' is the location you want to search, but you have to specify a specific directory using one of the metacharacters:
+* Period(.): Specifies th current and all nested folders.
+* Forward Slash (/): Specifies the entire filesystem.
+* Tilde (~): Specifies the active user's home directory.
 ### FIND
 The command used to search for files is called **find**.
 ```
