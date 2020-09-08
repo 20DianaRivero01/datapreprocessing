@@ -12,7 +12,7 @@ If we want to creae a new directory we use the command **"mkdir":**
 mkdir name_of_the_new_directory
 ```
 ### CHANGING DIRECTORIES 
-serves to change the directory, ie we can enter a directory or likewise can leave. For it we use the command **"cd/cd .."**
+serves to change the directory, we can enter a directory or likewise can leave. For it we use the command **"cd/cd .."**
 
 ***in***
 ```
@@ -31,8 +31,8 @@ Also if you want to check the **HIDE FILES** you can use the command **"ls .*"**
 ```
 ls .* 
 ```
-To see all the files and also de hiden 
---> ls -a, ls -l, ls -A, ls -Al, ls -h, ls -lh, ls -Alh
+To see all the files and also the hiden ones
+--> **"ls -a", "ls -l", "ls -A", "ls -Al", "ls -h", "ls -lh", "ls -Alh"**
 
 To search some file or directory and you don`t know the hole name you can abreviate it and find it like this:
 ```
