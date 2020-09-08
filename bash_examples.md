@@ -1,5 +1,5 @@
 # COMMAND LINE 
-
+___
 ### CREATING A NEW DIRECTORY
 If we want to creae a new directory we use the command **"mkdir":**
 ```
@@ -21,6 +21,10 @@ It is useful to see which files and even which directories we have inside of a d
 ```
 ls
 ```
+Also if you want to check the **HIDE FILES** you can use the command **"ls .*"**
+```
+ls .*
+```
 ### HISTORY
 If we want to see all the commands and movements we have done inside the powershell we can access to the history and check all the register and also if we forgot a command we can check it from there.The command we use is **"history"**
 ```
@@ -31,7 +35,7 @@ We can create a new file by using the command **"nano"**, command line let us cr
 ```
 nano name_of_the_document.txt
 ```
-##COPING A FILE 
+## COPING A FILE 
 If we want to copy a file we use **"cp"** following by the name of the new file because they can have the same name because it is a copy
 ```
 cp name_of_the_file name_of_the_copy
@@ -41,8 +45,13 @@ If you want to copy what is inside of a directory with all the components use th
 ```
 cp -i *.txt
 ```
+### COPY TO ANOTHER DIRECTORY
+If you want to copy the file in anothe directory use **"cp * ../_/."**
+```
+cp * ../name_of_directory/.
+```
 ### RECURSIVE COPY 
-To get the copy of diferent directions or directories you can use the command **"cp -R"**, you can also put the line of all your directories starting in home and it will create a copy of everything
+To get the copy of diferent directions or directories you can use the command **"cp -R"**, you can also put the line of all your directories starting in home and it will create a copy of everything(the direction)
 ```
 cp -R names_of_the_file/directories_you_want_to_copy  name_copy
 ```
@@ -68,8 +77,23 @@ rm name_of_the_file*.type(txt,py,c,...)
 ```
 ### REMOVING A DIRECTORY
 If you want to remove a directory you can use the command **"ls /"**
+***if it is not empty***
 ```
-ls name_of_the_directory/
+rm -R name_of_directory
+```
+***If it is empty***
+```
+rmdir name_of_directory
+```
+### CHECK HOW DOES A COMMAND WORK
+If you want to check how does a comand word you just put **"man"**
+```
+man name_of_the_command
+```
+###MOVE A FILE TROUGHT CARPETS
+To move a file to another carpet use the command **"mv"**
+```
+mv name_of_the_file ../.  <---(direction_carpet)
 ```
 ### FIND
 The command used to search for files is called **find**.
