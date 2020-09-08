@@ -1,6 +1,11 @@
 
 # COMMAND LINE 
 ___
+### PERSONAL USER
+To get personal information from the user we can execute the following commands.
+* **"whoami"**: it is used to get the name of the user.
+* **"id"**: it gives you more specific information from the user.
+* **"groups"**: all the groups that are in the computer.
 ### CREATING A NEW DIRECTORY
 If we want to creae a new directory we use the command **"mkdir":**
 ```
@@ -132,8 +137,8 @@ there are diferent types of path
 
 ## SEARCH LOCATION SHORTCUTS
 The 1rst argument after 'find' is the location you want to search, but you have to specify a specific directory using one of the metacharacters:
-* Period(.): Specifies th current and all nested folders.
-* Forward Slash (/): Specifies the entire filesystem.
+* Period(.): Specifies the current and all nested folders.
+* Forward Slash (/): Specifies the entire file system.
 * Tilde (~): Specifies the active user's home directory.
 ### FIND
 The command used to search for files is called **find**.
@@ -170,3 +175,11 @@ find / -name *.mp3
 ```
 find / -perm /a=x
 ```
+### LOOK ALL THE METADATA FROM A FILE
+It is executed by the command **"stat"** which let you see all the metadata from a file and show us man different things
+```
+stat name_of_the_file.type
+```
+##### NOTE
+**rwx** = reading, writing, executing
+
