@@ -119,7 +119,7 @@ If you want to check how does a comand word you just put **"man"**
 ```
 man name_of_the_command
 ```
-###MOVE A FILE TROUGHT CARPETS
+### MOVE A FILE TROUGHT CARPETS
 To move a file to another carpet use the command **"mv"**
 ```
 mv name_of_the_file ../.  <---(direction_carpet)
