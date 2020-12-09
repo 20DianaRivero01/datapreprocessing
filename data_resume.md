@@ -10,12 +10,12 @@ ___
 Data is complex, and all data is different. DataTables has a wealth of options which can be used to configure how it will obtain the data to display in the table, and how it processes that data.
 
 #### Data types
-  * **Categorial:
+  * **Categorial**:
 
 Categorical data is a collection of information that is divided into groups. I.e, if an organisation or agency is trying to get a biodata of its employees, the                    resulting data is referred to as categorical. This data is called categorical because it may be grouped according to the variables present in the biodata                         such as sex, state of residence, etc.
 Categorical data can take on numerical values (such as “1” indicating Yes and “2” indicating No), but those numbers don’t have mathematical meaning. One can                    neither add them together nor subtract them from each other.
 
-* **Numerical:
+* **Numerical**:
 
 Numerical data is a data type expressed in numbers, rather than natural language description. Sometimes called quantitative data,numerical data is always                         collected in number form. Numerical data differentiates itself with other number form data types with its ability to carry out arithmetic operations with                     these numbers.
 
@@ -81,4 +81,6 @@ AS2 is a standard used to transfer Electronic Data Interchange (EDI) messages an
 
 ## Describe the procedures for data importing
 
-Using the Define File-Based Data Import group of tasks that are available from the Setup and Maintenance work area, you can import a wide range of application data from text or XML files. Your import data can either create or update application records. Use the steps outlined in this topic as a guide. The import options and other details differ by the type of data that you're importing. Before importing, you must understand how the data in your file maps to the attributes in the application and what values are expected as described in the related topics.
+Using the Define File-Based Data Import group of tasks that are available from the Setup and Maintenance work area, you can import a wide range of application data from text or XML files. Your import data can either create or update application records. 
+
+Use the steps outlined in this topic as a guide. The import options and other details differ by the type of data that you're importing. Before importing, you must understand how the data in your file maps to the attributes in the application and what values are expected as described in the related topics.
