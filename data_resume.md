@@ -19,7 +19,7 @@ Categorical data can take on numerical values (such as “1” indicating Yes an
 
 Numerical data is a data type expressed in numbers, rather than natural language description. Sometimes called quantitative data,numerical data is always                         collected in number form. Numerical data differentiates itself with other number form data types with its ability to carry out arithmetic operations with                     these numbers.
 
-* **Boolean: 
+* **Boolean**: 
 
 BOOLEAN can be used as a data type when defining a column in a table or a variable in a database procedure. Support for the BOOLEAN data type helps migrations                   from other database products.
 Boolean columns accept as input the SQL literals FALSE and TRUE. In addition, due to automatic coercion rules, the strings 'FALSE' and 'TRUE' and the integers 0                 and 1 are also acceptable for use in a Boolean column or variable. Input is not case sensitive.
@@ -29,24 +29,24 @@ The CREATE INDEX statement allows an index to be created on BOOLEAN columns.
 Terminal Monitor output for a BOOLEAN column shows the literals FALSE and TRUE as unquoted strings
 
 ### Common data 
-* **CSV: 
+* **CSV**: 
 
 CSV (comma separated values) files are used to store tabular data in plain text format. Most often the fields in this data are separated by commas but                           other delimiters can be used such as |. TSV (tab separated values) files are similar but breaks are delimited by tabs. Both formats are widely supported                         and are often used to exchange data across multiple different computers and systems that support the format.
 Most modern spreadsheet packages can open CSV/TSV files for viewing. To maintain formatting data you will want to save in a proprietary format like XLS                            (Microsoft Office Excel), ODS (Open Office spreadsheets) or .numbers (Apple Mac), depending on the software you use. A free tool for viewing csv and                              other spreadsheet formats online can be found here.
 
-* **Json : 
+* **Json** : 
 
 Json (javascript object notation) files are human-readable text files used to transport data in key/value pairs. It is a format widely used on the web and is often              the type of data returned from an API call.
 
 *Whilst human readable, json is generally used by software as a data source. A useful free tool to view json in interesting ways can be found here.*
 
-* **XML: 
+* **XML**: 
 
 Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-                     readable. The design goals of XML emphasize simplicity, generality, and usability across the Internet. Although the design of XML focuses on documents,                          the language is widely used for the representation of arbitrary data structures such as those used in web services.
 
 *XML is generally more useful to developers and software systems. You can import them as tables into Excel or view using this free online tool.*
 
-* **XLS:
+* **XLS**:
 
 A file with the XLS file extension is a Microsoft Excel 97-2003 Worksheet file. Later versions of Excel save spreadsheet files in the XLSX format by default. XLS                 files store data in tables of rows and columns with support for formatted text, images, charts, and more.
 
@@ -63,19 +63,19 @@ Now comes the complex part, an API, is anything which helps you to write your co
 
 Secure file transfer is data sharing via a secure, reliable delivery method. It is used to safeguard proprietary and personal data in transit and at rest. Most secure file sharing methods use standard protocols, including:
 
-* **Secure File Transfer Protocol (SFTP): 
+* **Secure File Transfer Protocol (SFTP)**: 
 
 SFTP transfers files with the Secure Shell (SSH) connection – SFTP is an encrypted network protocol that can enable a remote login to operate over a network that lacks security. SFTP offers encryption of commands and data. It also prevents passwords and sensitive information from open transmission over the network.
 
-* **File Transfer Protocol – Secure (FTPS): 
+* **File Transfer Protocol – Secure (FTPS)**: 
 
 FTPS offers encryption and uses an application layer wrapper, known as Secure Sockets Layer (SSL) to enable secure and private communications across a network.
 
-* **Hypertext Transfer Protocol – Secure (HTTPS): 
+* **Hypertext Transfer Protocol – Secure (HTTPS)**: 
 
 HTTPS secures websites when users are providing sensitive information like credit card numbers or other personal information. The protocol offers multiple layers of data protection including data integrity, encryption, and authentication.
 
-* **Applicability Statement 2 (AS2):
+* **Applicability Statement 2 (AS2)**:
 
 AS2 is a standard used to transfer Electronic Data Interchange (EDI) messages and other data in real time. The AS2 protocol facilitates the ability to exchange AS2 EDI messages and other types of data over the HTTP or HTTPS protocol.
 
